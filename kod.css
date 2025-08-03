@@ -348,7 +348,7 @@ nav a:focus {
     }
 }
 
-@media (max-width: 700px) and ( max-height: 700px ) {
+@media (max-width: 700px) and ( max-height: 600px ) {
     header {
         grid-template-rows:  1fr 2fr;
         height: 36vh;
@@ -356,6 +356,7 @@ nav a:focus {
     }
     nav{
         grid-template-columns: 1fr 1fr 1fr;
+        color:red;
     }
     .heroSection {
         margin-top: 36vh;
@@ -393,7 +394,7 @@ nav a:focus {
         font-size: 1.5rem;
     }
 }
-@media (max-width: 700px) and ( min-height: 700px ) {
+@media (max-width: 700px) and ( min-height: 600px ) {
     header {
         grid-template-rows:  1fr 2fr;
         height: 25vh;
@@ -444,4 +445,5 @@ nav a:focus {
     outline: 2px solid #4B3F72;
     outline-offset: 2px;
 }
+
 
