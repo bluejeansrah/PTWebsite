@@ -171,16 +171,16 @@ nav a:focus {
 .workoutDetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
     align-items: flex-start;
     margin-top: 2rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
     background: #CAB6CD;
     margin-bottom: 15vh;
 }
 
 .workoutDetails h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 0 0 1rem 0;
     color: #4B3F72;
 }
@@ -311,14 +311,14 @@ nav a:focus {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     header {
         grid-template-rows: 1fr;
-        height: 24vh;
+        height: 30vh;
         font-size: 1rem;
     }
     .heroSection {
-        margin-top: 24vh;
+        margin-top: 30vh;
         padding-left: 1vw;
     }
     .image-background,
@@ -348,6 +348,51 @@ nav a:focus {
     }
 }
 
+@media (max-width: 700px) {
+    header {
+        grid-template-rows:  1fr 2fr;
+        height: 36vh;
+        font-size: 0.9rem;
+    }
+    nav{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .heroSection {
+        margin-top: 36vh;
+        padding-left: 0.5vw;
+    }
+    .image-background,
+    .image-background2 {
+        max-width: 95vw;
+        margin-top: 1rem;
+    }
+    .workoutDetails h2 {
+        font-size: 1.8rem;
+    }
+    .workoutDetails p {
+        font-size: 1rem;
+    }
+    .personalInfo p{
+        font-size: 0.5rem;
+    }
+    .aboutMeInfo .personalInfo {
+        font-size: 1.5rem;
+        padding: 0.5rem 0.3rem;
+    }
+    .additionalInfo h4 {
+        font-size: 1rem;
+    }
+    .additionalInfo ul {
+        font-size: 0.9rem;
+        padding-left: 0.8rem;
+    }
+    .credentials li,.approach li {
+        font-size: 1rem;
+    }
+    .credentials h4,.approach h4 {
+        font-size: 1.5rem;
+    }
+}
 /* Accessibility: High contrast for focus */
 *:focus-visible {
     outline: 2px solid #4B3F72;
