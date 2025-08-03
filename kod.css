@@ -396,7 +396,7 @@ nav a:focus {
 @media (max-width: 700px) and ( min-height: 700px ) {
     header {
         grid-template-rows:  1fr 2fr;
-        height: 30vh;
+        height: 25vh;
         font-size: 0.9rem;
     }
     nav{
@@ -444,3 +444,4 @@ nav a:focus {
     outline: 2px solid #4B3F72;
     outline-offset: 2px;
 }
+
